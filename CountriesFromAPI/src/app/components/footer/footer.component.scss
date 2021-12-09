@@ -1,0 +1,15 @@
+.fortechTest-footer{
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    position:absolute;
+    border-top:2px solid #8fc1ff;
+    background-color: #fdfdfd;
+}
+.fortechTest-footer p{
+    font-size:14px;
+    font-weight: 600;
+}

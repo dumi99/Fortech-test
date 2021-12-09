@@ -1,0 +1,49 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    padding:0 5%;
+}
+.page-functionalty{
+    padding:20px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.page-functionalty .filter select{
+    margin:0 20px;
+}
+.page-title{
+    text-align: center;
+}
+.display-countries{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.country-container{
+    width:25%;
+    margin:3%;
+    padding:3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 450px;
+    border-radius:10px;
+}
+.country-container img{
+    width:200px;
+    height: 150px;
+    margin-bottom:30px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius:5px;
+    padding:15px;
+}
+select{
+    border-radius:5px;
+    padding:10px;
+}

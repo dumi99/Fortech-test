@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Fortech test</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class='page-functionalty'>
+            
+            <div class='filter'>
+                <select name='continent' id='continent'>
+                    <option value="" disabled selected>Select region</option>
+                </select>
+                <select name='population' id='population'>
+                    <option value="" disabled selected>Select population range</option>
+                    <option value='500000'> - 500000</option>
+                    <option value='2000000'>500000 - 2000000</option>
+                    <option value='10000000'>2000000 - 10000000</option>
+                    <option value='100000000'>10000000 - 100000000</option>
+                    <option value='500000000'>100000000 - 500000000</option>
+                    <option value='1000000000'>500000000 - 1000000000</option>
+                    <option value='3000000000'>1000000000 + </option>
+                </select>
+                <select name='languages' id='languages'>
+                    <option value="" disabled selected>Select language</option>
+                </select>
+                <select name='time-zones' id='time-zones'>
+                    <option value="" disabled selected>Select timezone</option>
+                </select>
+                <select name='currencies' id='currencies'>
+                    <option value="" disabled selected>Select currency</option>
+                </select>
+            </div>
+            <input type="text" id="countrySearch" placeholder="Search for countries..">
+        </div>
+        <div class='page-title'>
+            <h1> Restcountries Display countries</h1>
+        </div>
+        
+        <div class='display-countries'>
+
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

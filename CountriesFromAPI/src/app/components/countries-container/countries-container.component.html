@@ -1,0 +1,14 @@
+<div class='countries-container'>
+
+
+    <div class='country-summar-description' *ngFor="let country of countries | async  "> 
+        <img class='country-flag' src="{{ country.flags.svg }}">
+        <p class='country-name country-text'>Name: {{ country.name.common }}</p>
+        <p class='country-capital country-text'>Capital: {{country.capital}}</p>
+        <p class='country-region country-text'>Region: {{country.region}}</p>
+        <p class='country-population country-text'>Population: {{country.population}}</p>
+    </div>
+
+
+</div>
+
