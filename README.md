@@ -5,5 +5,5 @@ Nu am reusit sa finalizez tot testu dar totusi nu doresc sa ma prezint cu mana g
 Also, stiu ca e codul messy, sorry.
 
 # Structura
-FortechTest - este ce Vanilla
+FortechTest - este ce Vanilla \n
 CountriesFromAPI - este facut cu Angular
